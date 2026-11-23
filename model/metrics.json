@@ -1,0 +1,40 @@
+{
+  "model_name": "Linear Regression",
+  "mae": 1.1616730970428704,
+  "rmse": 1.4218499913977105,
+  "r2": 0.4755446431924898,
+  "record_count": 1000,
+  "feature_names": [
+    "sleep_hours_per_night",
+    "screen_time_hours_per_day",
+    "study_hours_per_day",
+    "exercise_minutes_per_day",
+    "social_media_hours_per_day",
+    "tea_coffee_cups_per_day",
+    "attendance_percentage",
+    "part_time_job",
+    "extracurricular_hours_per_week",
+    "deadlines_exams_this_week"
+  ],
+  "target_name": "stress_level_1_to_10",
+  "evaluation": [
+    {
+      "name": "Linear Regression",
+      "mae": 1.1616730970428704,
+      "rmse": 1.4218499913977105,
+      "r2": 0.4755446431924898
+    },
+    {
+      "name": "Decision Tree Regressor",
+      "mae": 1.6542870446973865,
+      "rmse": 1.9867054125784132,
+      "r2": -0.02392445638678331
+    },
+    {
+      "name": "Random Forest Regressor",
+      "mae": 1.2909771847041847,
+      "rmse": 1.5852123569633327,
+      "r2": 0.3481076803006026
+    }
+  ]
+}

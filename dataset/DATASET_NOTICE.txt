@@ -1,0 +1,1 @@
+﻿SOURCE DATASET NOTICE: student_lifestyle_exam_stress_synthetic.csv is identified as synthetic. It predicts self-reported stress_level_1_to_10 and is not real student data or a clinical assessment.
